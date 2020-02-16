@@ -1,0 +1,45 @@
+.nav-container { 
+  flex-wrap: wrap;
+  padding-bottom: 0.3rem;
+}
+.nav-search { 
+  flex-basis: 85%;
+  order: 1;
+}
+
+.nav-search .logo { 
+  font-size: 1.3rem;
+  margin-left: 0.8rem;
+}
+
+.search-tab { 
+  margin-left: 0.2rem;
+}
+
+.nav-settings { 
+  order: 2;
+  flex-basis: 5%;
+}
+
+ul.nav-user-buttons { 
+  order: 3;
+  flex-basis: 98%;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+
+.nav-user-buttons li { 
+  flex-basis: 50%;
+  margin-right: 0.2rem;
+}
+
+.nav-user-buttons li .btn { 
+  width: 100%;
+}
+
+@media screen and (min-width: 765px) { 
+  .nav-search .logo { 
+    font-size: 1.3rem;
+    margin-left: 4rem;
+  }
+}

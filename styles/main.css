@@ -1,0 +1,88 @@
+
+/* NAVBAR */
+#main-nav { 
+  background: var(--main-color);
+  color: var(--main-text-color);
+  border-bottom: 1px solid var(--light-color);
+}
+
+.nav-container { 
+  display: flex;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0.9rem;
+  align-items: center;
+}
+
+/* SEARCH_AREA */
+.nav-search { 
+  flex-basis: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-search .logo { 
+  font-size: 1.5rem;
+}
+
+.search-tab { 
+  width: 100%;
+  margin-left: 2rem;
+  background-color: var(--dark-color);
+  border-radius: 10px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-search .search-tab-box { 
+  width: calc(100% - 30px);
+  background-color: var(--dark-color);
+  border: none;
+  border-radius: 10px;
+  color: var(--light-color);
+}
+
+.nav-search .search-tab-box:focus { 
+  outline: none;
+}
+
+.nav-search .search-tab i { 
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+  font-size: 0.9rem;
+  color: var(--light-color);
+}
+
+/* LOGIN - SIGNUP */
+.nav-user-buttons { 
+  flex-basis: 25%;
+  display: flex;
+  justify-self: end;
+  list-style-type: none;
+  margin-left: 10rem;
+}
+
+.nav-user-buttons .btn-blue { 
+  background-color: var(--blue-color);
+  color: var(--main-text-color);
+}
+
+/* MEATBALLS MENU  */
+.nav-settings { 
+  flex-basis: 5%;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-settings span { 
+  height: 6px;
+  width: 6px;
+  border: 1.5px solid var(--blue-color);
+  background-color: var(--main-color);
+  border-radius: 50%;
+  margin:0.1rem;
+}
+
