@@ -86,3 +86,70 @@
   margin:0.1rem;
 }
 
+/* MAIN-AREA */
+#main-wall { 
+  max-width: var(--container-width);
+  margin: 0 auto;
+  display: flex;
+}
+
+/* WALL */
+.wall-profile-container { 
+  flex-basis: 60%;
+  border: 1px solid var(--light-color);
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.wall-cover-photo { 
+  width: 100%;
+}
+
+.bio-photo { 
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.bio-photo > img {
+  position: absolute;
+  top: -67px;
+  width: 134px; 
+  height: 134px; 
+  border-radius: 50%;
+  border: 3px solid var(--main-color);
+}
+
+.bio-photo > figcaption {
+  position: absolute; 
+  top: 0; 
+  right: 0;
+  padding: 1rem;
+}
+
+.profile-desc { 
+  margin: 0 1rem 2rem;
+  color: var(--light-color);
+}
+
+.wall-activity { 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wall-activity li { 
+  flex-basis: 25%;
+  text-align: center;
+  padding: 0.6rem 0.4rem;
+  font-weight: bold;
+}
+
+
+/* SIDEBAR */
+#sidebar { 
+  flex-basis: 40%;
+}
+
+

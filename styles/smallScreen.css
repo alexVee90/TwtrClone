@@ -1,3 +1,34 @@
+
+.nav-container { 
+  padding-left: 0;
+}
+
 .nav-search { 
-  flex-basis: 230px;
+  flex-basis: 80%;
+}
+
+.nav-search .logo { 
+  margin-left: 0.6rem;
+}
+
+.nav-settings { 
+  flex-basis: 5%;
+}
+
+ul.nav-user-buttons { 
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.wall-profile-container { 
+  flex-basis: 100%;
+}
+
+.profile-desc-dates { 
+  display: flex;
+  flex-direction: column;
+}
+
+.wall-activity { 
+  overflow-x: scroll;
 }

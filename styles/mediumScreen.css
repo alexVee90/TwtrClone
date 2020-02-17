@@ -4,14 +4,14 @@
   padding-bottom: 0.3rem;
 }
 .nav-search { 
-  flex-basis: 85%;
+  flex-basis: 75%;
   order: 1;
   margin-bottom: 0.5rem;
 }
 
 .nav-search .logo { 
   font-size: 1.3rem;
-  margin-left: 1.2rem;
+  margin-left: 4rem;
 }
 
 .search-tab { 
@@ -25,7 +25,7 @@
 
 ul.nav-user-buttons { 
   order: 3;
-  flex-basis: 98%;
+  flex-basis: 80%;
   justify-content: flex-start;
   margin: 0 auto;
 }
@@ -39,9 +39,29 @@ ul.nav-user-buttons {
   width: 100%;
 }
 
+/* SIDEBAR  */
+#sidebar { 
+  display: none;
+}
+
+.wall-profile-container { 
+  flex-basis: 80%;
+  margin: 0 auto;
+}
+
+.profile-desc-dates { 
+  display: flex;
+  flex-direction: column;
+}
+
+.wall-activity li { 
+  padding: 0.3rem 0.2rem;
+  font-size: 12px;
+}
+
 @media screen and (min-width: 765px) { 
   .nav-search .logo { 
     font-size: 1.3rem;
-    margin-left: 4rem;
+    margin-left: 8rem;
   }
 }

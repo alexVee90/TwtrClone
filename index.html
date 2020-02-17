@@ -1,46 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- font awesome -->
-  <script src="https://kit.fontawesome.com/17b916cdd9.js" crossorigin="anonymous"></script> 
-  <!-- utilities css file -->
-  <link rel="stylesheet" href="./styles/utilities.css">
-  <!-- main css sheet -->
-  <link rel="stylesheet" href="./styles/main.css">
-  <!-- medium screen css stwlesheet -->
-  <link rel="stylesheet" href="./styles/mediumScreen.css" media="screen and (max-width: 999px)">
-  <!-- small screen css stylesheet -->
-  <link rel="stylesheet" href="./styles/smallScreen.css" media="screen and (max-width:364px)">
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/17b916cdd9.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- utilities css file -->
+    <link rel="stylesheet" href="./styles/utilities.css" />
+    <!-- main css sheet -->
+    <link rel="stylesheet" href="./styles/main.css" />
+    <!-- medium screen css stwlesheet -->
+    <link
+      rel="stylesheet"
+      href="./styles/mediumScreen.css"
+      media="screen and (max-width: 999px)"
+    />
+    <!-- small screen css stylesheet -->
+    <link
+      rel="stylesheet"
+      href="./styles/smallScreen.css"
+      media="screen and (max-width:364px)"
+    />
 
-  <title>TwitterClone</title>
-</head>
-<body>
-  <nav id="main-nav">
-    <div class="nav-container">
-      <form class="nav-search">
-        <i class="fab fa-twitter logo"></i>
-        <div class="search-tab">
-          <i class="fas fa-search"></i>
-          <input type="text" class="search-tab-box" placeholder="Search Twitter">
-        </div>
-      </form>
-      <ul class="nav-user-buttons">
-        <li><button class="btn">Log In</button></li>
-        <li><button class="btn btn-blue">Sign Up</button></li>
-      </ul>
-      <section class="nav-settings">
+    <title>TwitterClone</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav id="main-nav">
+      <div class="nav-container">
+        <form class="nav-search">
+          <i class="fab fa-twitter logo"></i>
+          <div class="search-tab">
+            <i class="fas fa-search"></i>
+            <input
+              type="text"
+              class="search-tab-box"
+              placeholder="Search Twitter"
+            />
+          </div>
+        </form>
+        <ul class="nav-user-buttons">
+          <li><button class="btn">Log In</button></li>
+          <li><button class="btn btn-blue">Sign Up</button></li>
+        </ul>
+        <section class="nav-settings">
           <span></span>
           <span></span>
           <span></span>
+        </section>
+      </div>
+    </nav>
+
+    <main id="main-wall">
+      <section class="wall-profile-container">
+        <figure class="wall-cover-photo">
+          <img
+            src="./images/jack-background-image.jfif"
+            alt="background photo"
+          />
+        </figure>
+        <section class="wall-profile-bio">
+          <figure class="bio-photo">
+            <img src="./images/jack-profile-photo.jpg" alt="profile photo" />
+            <figcaption><button class="btn">Follow</button></figcaption>
+          </figure>
+          <section class="profile-desc">
+            <ul class="profile-desc-name my-1">
+              <li class="profile-desc-username"><h1 class="main-header">jack</h1></li>
+              <li class="profile-desc-login-name"><h5>@jack</h5></li>
+            </ul>
+            <div class="profile-desc-about my-1 link">#bitcoin</div>
+            <ul class="profile-desc-dates my-1 horizontal-start">
+              <li class="profile-desc-born"><i class="far fa-lightbulb"></i>Born 19th November 1976</li>
+              <li class="profile-desc-joined"><i class="far fa-calendar-alt"></i>Joined March 2006</li>
+            </ul>
+            <ul class="profile-desc-stats my-1 horizontal-start">
+              <li class="profile-desc-following"><strong>4,286</strong> Following</li>
+              <li class="profile-desc-followers"><strong>4.3M</strong> Followers</li>
+            </ul>
+          </section>
+        </section>
+        <ul class="wall-activity">
+          <li class="active">Tweets</li>
+          <li>Tweets & Replies</li>
+          <li>Media</li>
+          <li>Likes</li>
+        </ul>
       </section>
-    </div>
-  </nav>
 
-  <!-- js sheet -->
-  <script src="main.js"></script>
-</body>
+       <!-- SIDEBAR -->
+      <aside id="sidebar">
+        <section class="sidebar-signup">
+          SignUp
+        </section>
+        <section class="sidebar-showcase">
+          Showcase
+        </section>
+        <section class="sidebar-interests">
+          Interests
+        </section>
+        <section class="sidebar-trends">
+          Trends
+        </section>
+        <section class="sidebar-terms">
+          T's and C's
+        </section>
+      </aside>
+    </main>
+    <!-- js sheet -->
+    <script src="main.js"></script>
+  </body>
 </html>
