@@ -137,6 +137,7 @@
 .wall-activity { 
   display: flex;
   justify-content: space-evenly;
+  border-bottom: 1px solid var(--light-color);
 }
 
 .wall-activity li { 
@@ -144,6 +145,80 @@
   text-align: center;
   padding: 0.6rem 0.4rem;
   font-weight: bold;
+}
+
+/* TWEETS */
+.wall-tweets-container { 
+  background-color: var(--dark-color);
+}
+
+.tweet { 
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--light-color);
+  background-color: var(--pinned-color);
+  border-top: none;
+  border-bottom: none;
+}
+
+.tweet-header { 
+  margin: 0.5rem;
+}
+
+.tweet-header i {
+  font-size: 0.8rem;
+  text-align: end;
+}
+
+.tweet-header i,
+.tweet-main-area figure,
+.tweet-footer .dummy { 
+  flex-basis: 10%;
+} 
+
+.tweet-main-area > figure > img { 
+  border-radius: 50%;
+}
+
+.tweet-header h6,
+.tweet-main-area .tweet-text-box,
+.tweet-footer .lead { 
+  flex-basis: 90%;
+} 
+
+.tweet-main-area .tweet-text-box { 
+  padding-left: 0.5rem;
+}
+
+.tweet-main-area .tweet-text-box li { 
+  margin: 0.5rem 0;
+}
+
+.tweet-main-area .tweet-text-box li:nth-child(2) { 
+  color: var(--main-text-color);
+}
+
+.tweet-main-area .tweet-text-box .tweet-social { 
+  display: flex;
+  justify-content: space-around;
+}
+
+.tweet-footer { 
+  margin: 0.5rem 0;
+}
+
+.wall-tweets-container .tweet-retweet { 
+  margin-top: 0.7rem;
+  background-color: var(--main-color);
+}
+
+li.tweet-retweeted .tweet { 
+  background-color: var(--main-color);
+  border: 1px solid var(--light-color);
+  border-radius: 10px;
+}
+
+li.tweet-retweeted .tweet .tweet-main-area { 
+  color: var(--main-text-color);
 }
 
 

@@ -11,6 +11,7 @@
   --blue-color: #1da1f2;
   --container-width: 990px;
   --main-text-color: #f4f4f4;
+  --pinned-color: #1b2734;
 }
 
 html { 
@@ -53,6 +54,11 @@ img {
 .horizontal-start { 
   display: flex;
   justify-content: flex-start;
+}
+
+.horizontal-center { 
+  display: flex;
+  justify-content: center;
 }
 
 .btn { 
