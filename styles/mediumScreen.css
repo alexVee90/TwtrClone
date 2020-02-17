@@ -1,3 +1,4 @@
+/* NAVBAR */
 .nav-container { 
   flex-wrap: wrap;
   padding-bottom: 0.3rem;
@@ -5,15 +6,16 @@
 .nav-search { 
   flex-basis: 85%;
   order: 1;
+  margin-bottom: 0.5rem;
 }
 
 .nav-search .logo { 
   font-size: 1.3rem;
-  margin-left: 0.8rem;
+  margin-left: 1.2rem;
 }
 
 .search-tab { 
-  margin-left: 0.2rem;
+  margin-left: 1rem;
 }
 
 .nav-settings { 
