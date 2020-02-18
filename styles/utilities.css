@@ -41,10 +41,16 @@ img {
   margin: 0;
 }
 
+.b-round { 
+  border: 1px solid var(--light-color);
+  border-radius: 10px;
+}
+
 .main-header {
   font-size: 1.2rem;
   color: var(--main-text-color);
 }
+
 
 .link { color: var(--blue-color)}
 
