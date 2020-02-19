@@ -123,6 +123,7 @@
   height: 134px; 
   border-radius: 50%;
   border: 3px solid var(--main-color);
+  margin-left: 1rem;
 }
 
 .bio-photo > figcaption {
