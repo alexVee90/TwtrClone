@@ -80,6 +80,10 @@
   align-items: center;
 }
 
+.nav-settings:hover {
+  animation: settings 0.6s;
+}
+
 .nav-settings span { 
   height: 6px;
   width: 6px;

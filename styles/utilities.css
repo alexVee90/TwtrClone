@@ -86,3 +86,14 @@ img {
 .btn:hover { 
   transform: scale(1.05);
 }
+
+@keyframes settings { 
+  50% { 
+    
+    transform: scale(1.5);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+
+}
