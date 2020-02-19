@@ -100,7 +100,7 @@
   display: flex;
 }
 
-/* WALL */
+/* WALL - Profile - Area*/
 .wall-profile-container { 
   flex-basis: 60%;
   border: 1px solid var(--light-color);
@@ -252,6 +252,7 @@ li.tweet-retweeted .tweet .tweet-main-area {
   width: 96%;
 }
 
+/* SIDEBAR - SHOWCASE  */
 .sidebar-showcase { 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -276,6 +277,8 @@ li.tweet-retweeted .tweet .tweet-main-area {
   border-bottom-right-radius: 10px;  
 }
 
+
+/* SIDEBAR - INTERESTS */
 .sidebar-interests { 
   padding: 1rem;
   border: none;
