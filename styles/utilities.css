@@ -80,4 +80,9 @@ img {
   font-weight: 700;
   background-color: var(--main-color);
   color: var(--blue-color);
+  transition: transform 0.2s;
+}
+
+.btn:hover { 
+  transform: scale(1.05);
 }
