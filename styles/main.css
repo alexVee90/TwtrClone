@@ -207,7 +207,11 @@
 
 .tweet-main-area .tweet-text-box .tweet-social { 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.like-area { 
+  flex-basis: 20%;
 }
 
 .tweet-footer { 
