@@ -197,11 +197,11 @@
   padding-left: 0.5rem;
 }
 
-.tweet-main-area .tweet-text-box li { 
+.tweet-main-area .tweet-text-box .tweet-text-box-item { 
   margin: 0.5rem 0;
 }
 
-.tweet-main-area .tweet-text-box li:nth-child(2) { 
+.tweet-main-area .tweet-text-box .tweet-text-box-item:nth-child(2) { 
   color: var(--main-text-color);
 }
 
@@ -223,13 +223,13 @@
   background-color: var(--main-color);
 }
 
-li.tweet-retweeted .tweet { 
+.tweet-retweeted .tweet { 
   background-color: var(--main-color);
   border: 1px solid var(--light-color);
   border-radius: 10px;
 }
 
-li.tweet-retweeted .tweet .tweet-main-area { 
+.tweet-retweeted .tweet .tweet-main-area { 
   color: var(--main-text-color);
 }
 
