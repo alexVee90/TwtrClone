@@ -155,6 +155,12 @@
   font-weight: bold;
 }
 
+.wall-activity li:hover { 
+  background-color: var(--blue-color);
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+
 /* TWEETS */
 .wall-tweets-container { 
   background-color: var(--dark-color);
@@ -214,6 +220,10 @@
   flex-basis: 20%;
 }
 
+.like-area:hover { 
+  color: var(--blue-color);
+  cursor: pointer;
+}
 .tweet-footer { 
   margin: 0.5rem 0;
 }
